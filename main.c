@@ -24,7 +24,7 @@ void ed25519(void) {
 }
 
 int main() {
-    x25519();
+    //x25519();
     ed25519();
 	return 0;
 

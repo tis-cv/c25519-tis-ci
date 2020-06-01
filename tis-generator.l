@@ -21,7 +21,7 @@
    )
    *F
    (quote
-      x25519 ed25519 )
+      ed25519 )
    *L
    (make
       (for F *F

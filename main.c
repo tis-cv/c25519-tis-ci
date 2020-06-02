@@ -23,8 +23,8 @@ void ed25519(void) {
     edsign_verify(s, p,    m, 32);
 }
 
-int main() {
-    x25519();
+int main(void) {
+    //x25519();
     ed25519();
 	return 0;
 

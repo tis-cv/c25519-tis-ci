@@ -89,7 +89,7 @@ static inline void store64(uint8_t *x, uint64_t v)
 	v >>= 8;
 	*(x--) = v;
 	v >>= 8;
-	*(x--) = v;
+	*(x)   = v;
 }
 
 static inline uint64_t rot64(uint64_t x, int bits)
